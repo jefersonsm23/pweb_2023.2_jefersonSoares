@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta codigoSecreto="701913108773175000">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="css/pico.min.css" />
+    <link rel="shortcut icon" href="assets/favicon.ico"/>
+    <title>PWeb - by Jeferson<</title>
+</head>
+
+<body>
+
+    <div class="w3-bar w3-black w3-xlarge">
+        <a href="index.html" class="w3-bar-item w3-button w3-mobile ">Início</a>
+        <a href="adicionarPessoa.html" class="w3-bar-item w3-button w3-aqua w3-mobile">Adicionar pessoa</a>
+        <a href="listarPessoas.html" class="w3-bar-item w3-button w3-mobile">Listar pessoas</a>
+        <a href="noticiais.html" class="w3-bar-item w3-button w3-right w3-mobile">Notícias</a>
+        <a href="sobre.html" class="w3-bar-item w3-button w3-right w3-mobile">Sobre o site</a>
+        <a href="contato.html" class="w3-bar-item w3-button w3-right w3-mobile">Contato</a>
+          <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
+            <a href="index.html" class="w3-bar-item w3-button w3-mobile">Início</a>
+            <a href="adicionarPessoa.html" class="w3-bar-item w3-button w3-mobile">Adicionar pessoa</a>
+            <a href="listarPessoas.html" class="w3-bar-item w3-button w3-mobile">Listar pessoas</a>
+            <a href="noticiais.html" class="w3-bar-item w3-button w3-mobile">Notícias</a>
+            <a href="sobre.html" class="w3-bar-item w3-button w3-mobile">Sobre o site</a>
+            <a href="contato.html" class="w3-bar-item w3-button w3-mobile">Contato</a>
+          </div>
+        </div>
+        <h1 class="w3-margin-left">Formulário para adicionar pessoas:</h1>
+        <div class="grid">
+            <div class="w3-margin-left"><p>seu nomezinho*:</p>
+                <input class="w3-input w3-border" type="text" placeholder="Nome Completo"></div>
+            
+            <div><p class="w3-margin-left">e-Mail*:</p>
+                <input class="w3-input w3-border" type="text" placeholder="nome@dominio.com"><p>Nunca divulgaremos :)</p></div>
+            <div><p class="w3-margin-left">Data de Nascimento*:</p>
+                <input id="date" type="date" /></div>
+          </div>
+          <fieldset class="w3-margin-left">
+            <legend>Genêro</legend>
+            <label for="Masculino">
+              <input type="radio"  name="Genêro" value="Masculino" checked>
+              Masculino
+            </label>
+            <label for="Feminino">
+              <input type="radio"  name="Genêro" value="Feminino">
+              Feminino
+            </label>
+            <label for="Não informar">
+              <input type="radio"  name="Genêro" value="Não informar">
+              Não informar
+            </label>
+          </fieldset>
+          <div class="grid">
+            <div><button class="w3-button" style="background-color: rgb(14, 173, 236);">Adicionar!</button><p>* Campo obrigatório</p></div>
+            <div><button class="w3-button w3-wide " style="background-color: rgb(73, 73, 73);">Limpar</button></div>
+          </div>
+
+</body>
+</html>
